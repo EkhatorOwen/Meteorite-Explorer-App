@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import {Table, Divider, Tag} from 'antd';
+import {Table} from 'antd';
 
 import {columns} from './columns';
 
@@ -16,8 +16,23 @@ const Resulttable = () => {
       return response.json();
     })
     .then(function(data) {
-     // console.log(data)
-      setValue(data)
+     
+      let newArr= []
+      data.sort((a,b)=>a.name>b.name).map(elem=>{
+        let obj = {
+          name: elem.name,
+          id: elem.id,
+          nametype: elem.nametype,
+          recclass: elem.recclass,
+          mass: elem.mass,
+          fall: elem.fall,
+          year: new Date(elem.year).toDateString(),
+           latitude: elem.geolocation ? elem.geolocation.latitude : '',
+           logitude: elem.geolocation ? elem.geolocation.longitude : ''
+        }
+       return newArr.push(obj)
+      })
+      setValue(newArr)
     });
   },[])
 
@@ -26,7 +41,7 @@ const Resulttable = () => {
   return (
     <div className="result-container">
       <div className="result-table">
-        <Table columns={columns} pagination={{ pageSize: 50 }} dataSource={value} />
+        <Table rowKey={value=>value.id} style={{color:'white'}} columns={columns} pagination={{ pageSize: 10 }} dataSource={value} />
       </div>
     </div>
   );
