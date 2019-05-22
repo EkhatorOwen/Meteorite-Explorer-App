@@ -1,0 +1,12 @@
+.result-container {
+  min-height: 75%;
+  /* background-color: #282C34; */
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.result-table {
+  width: 80%;
+  max-height: 100%;
+}

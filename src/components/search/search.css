@@ -1,10 +1,16 @@
 .search-box {
-  height: 20%;
+  height: 15%;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
+  background-color: #282C34;
+
 }
 
 .search-box-input {
-  width: 50%
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
 }
