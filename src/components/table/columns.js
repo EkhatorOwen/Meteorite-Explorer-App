@@ -40,9 +40,9 @@ export const columns = [
     key: 'latitude',
   },
   {
-    title: 'Longtitude',
-    dataIndex: 'longtitude',
-    key: 'longtitude',
+    title: 'Logitude',
+    dataIndex: 'logitude',
+    key: 'logitude',
   }
 ];
 
