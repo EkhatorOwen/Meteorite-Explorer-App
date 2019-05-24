@@ -4,3 +4,10 @@
   display: flex;
   flex-direction: column;
 }
+
+@media all and (max-width: 400px) {
+  .content_setting {
+
+    width: 100vw
+  }
+}
