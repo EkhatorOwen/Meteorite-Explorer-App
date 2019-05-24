@@ -3,8 +3,8 @@ import './header.css'
 
 const Header = () => {
   return (
-    <div>
-      <h2>Meteorite Explorer</h2>
+    <div className="app-header">
+      <p>Meteorite Explorer</p>
     </div>
   )
 }
