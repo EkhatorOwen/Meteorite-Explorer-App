@@ -2,7 +2,7 @@
   "name": "meteorite-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/EkhatorOwen/Meteorite-Explorer-App",
+  "homepage": "https://ekhatorowen.github.io/Meteorite-Explorer-App/",
   "dependencies": {
     "antd": "^3.18.1",
     "gh-pages": "^2.0.1",
