@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/EkhatorOwen/Meteorite-Explorer-App/static/css/main.dcc4649a.chunk.css",
-    "main.js": "/EkhatorOwen/Meteorite-Explorer-App/static/js/main.3d722cfc.chunk.js",
-    "main.js.map": "/EkhatorOwen/Meteorite-Explorer-App/static/js/main.3d722cfc.chunk.js.map",
-    "runtime~main.js": "/EkhatorOwen/Meteorite-Explorer-App/static/js/runtime~main.24cd1fef.js",
-    "runtime~main.js.map": "/EkhatorOwen/Meteorite-Explorer-App/static/js/runtime~main.24cd1fef.js.map",
-    "static/css/2.1ad4406c.chunk.css": "/EkhatorOwen/Meteorite-Explorer-App/static/css/2.1ad4406c.chunk.css",
-    "static/js/2.43709744.chunk.js": "/EkhatorOwen/Meteorite-Explorer-App/static/js/2.43709744.chunk.js",
-    "static/js/2.43709744.chunk.js.map": "/EkhatorOwen/Meteorite-Explorer-App/static/js/2.43709744.chunk.js.map",
-    "index.html": "/EkhatorOwen/Meteorite-Explorer-App/index.html",
-    "precache-manifest.bac48519801170e9c401b5d556c9ef9c.js": "/EkhatorOwen/Meteorite-Explorer-App/precache-manifest.bac48519801170e9c401b5d556c9ef9c.js",
-    "service-worker.js": "/EkhatorOwen/Meteorite-Explorer-App/service-worker.js",
-    "static/css/2.1ad4406c.chunk.css.map": "/EkhatorOwen/Meteorite-Explorer-App/static/css/2.1ad4406c.chunk.css.map",
-    "static/css/main.dcc4649a.chunk.css.map": "/EkhatorOwen/Meteorite-Explorer-App/static/css/main.dcc4649a.chunk.css.map"
+    "main.css": "/Meteorite-Explorer-App/static/css/main.dcc4649a.chunk.css",
+    "main.js": "/Meteorite-Explorer-App/static/js/main.5ab5d688.chunk.js",
+    "main.js.map": "/Meteorite-Explorer-App/static/js/main.5ab5d688.chunk.js.map",
+    "runtime~main.js": "/Meteorite-Explorer-App/static/js/runtime~main.d855960d.js",
+    "runtime~main.js.map": "/Meteorite-Explorer-App/static/js/runtime~main.d855960d.js.map",
+    "static/css/2.1ad4406c.chunk.css": "/Meteorite-Explorer-App/static/css/2.1ad4406c.chunk.css",
+    "static/js/2.7959c2d7.chunk.js": "/Meteorite-Explorer-App/static/js/2.7959c2d7.chunk.js",
+    "static/js/2.7959c2d7.chunk.js.map": "/Meteorite-Explorer-App/static/js/2.7959c2d7.chunk.js.map",
+    "index.html": "/Meteorite-Explorer-App/index.html",
+    "precache-manifest.9f6758811d17215f523df348ca9da260.js": "/Meteorite-Explorer-App/precache-manifest.9f6758811d17215f523df348ca9da260.js",
+    "service-worker.js": "/Meteorite-Explorer-App/service-worker.js",
+    "static/css/2.1ad4406c.chunk.css.map": "/Meteorite-Explorer-App/static/css/2.1ad4406c.chunk.css.map",
+    "static/css/main.dcc4649a.chunk.css.map": "/Meteorite-Explorer-App/static/css/main.dcc4649a.chunk.css.map"
   }
 }
