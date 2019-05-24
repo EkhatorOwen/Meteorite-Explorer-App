@@ -3,6 +3,8 @@ Metoeorite Explorer App is an application that provides users with the ability t
 
 This project was made with React, React Context API and Ant Design.
 
+The site is live at https://ekhatorowen.github.io/Meteorite-Explorer-App/
+
 ## Instructions
 
 * Clone the repository
