@@ -31,7 +31,7 @@ function App() {
               recclass: elem.recclass,
               mass: elem.mass,
               fall: elem.fall,
-              year: new Date(elem.year).toDateString(),
+              year: new Date(elem.year).getFullYear(),
               latitude: elem.geolocation ? elem.geolocation.latitude : '',
               logitude: elem.geolocation ? elem.geolocation.longitude : '',
             };
