@@ -13,7 +13,7 @@ const Search = () => {
   return (
     <div className="search-box">
       <div className="search-box-input">
-        <Input onChange={e=>setText(e.target.value)} style={{width: '85%'}} placeholder="Enter search terms" />
+        <Input onChange={e=>setText(e.target.value)} style={{width: '85%'}} placeholder="Enter search term" />
         <Button onClick={()=>value.handleSearch(text)}  style={{backgroundColor:"#3F51B5"}} type="primary">Search</Button>
       </div>
     </div>

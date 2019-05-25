@@ -14,7 +14,7 @@ function App() {
   const [isLoading, setLoading] = useState(true);
 
   useEffect(() => {
-    // setLoading(true)
+    
     fetch('https://data.nasa.gov/resource/gh4g-9sfh.json')
       .then(function(response) {
         return response.json();
