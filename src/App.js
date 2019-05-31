@@ -20,6 +20,7 @@ function App() {
         return response.json();
       })
       .then(function(data) {
+        console.log(data)
         let newArr = [];
         data
           .sort((a, b) => a.name > b.name)
