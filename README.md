@@ -1,4 +1,4 @@
-## Metoeorite Explorer App
+## Meteorite Explorer App
 Metoeorite Explorer App is an application that provides users with the ability to explore meteorite strikes across the globe by searching the Meteorite Landing dataset on the [Nasa Open Data Portal](https://data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh).
 
 This project was made with React, React Context API and Ant Design.
